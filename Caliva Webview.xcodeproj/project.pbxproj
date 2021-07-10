@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01891BF7269979860036C70A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01891BF6269979860036C70A /* AppDelegate.swift */; };
+		01891BF9269979860036C70A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01891BF8269979860036C70A /* SceneDelegate.swift */; };
+		01891BFB269979860036C70A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01891BFA269979860036C70A /* ViewController.swift */; };
+		01891BFE269979860036C70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01891BFC269979860036C70A /* Main.storyboard */; };
+		01891C00269979880036C70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01891BFF269979880036C70A /* Assets.xcassets */; };
+		01891C03269979880036C70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01891C01269979880036C70A /* LaunchScreen.storyboard */; };
+		01891C0E269979890036C70A /* Caliva_WebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01891C0D269979890036C70A /* Caliva_WebviewTests.swift */; };
+		01891C19269979890036C70A /* Caliva_WebviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01891C18269979890036C70A /* Caliva_WebviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01891C0A269979890036C70A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01891BEB269979860036C70A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01891BF2269979860036C70A;
+			remoteInfo = "Caliva Webview";
+		};
+		01891C15269979890036C70A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01891BEB269979860036C70A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01891BF2269979860036C70A;
+			remoteInfo = "Caliva Webview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01891BF3269979860036C70A /* Caliva Webview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caliva Webview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01891BF6269979860036C70A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01891BF8269979860036C70A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01891BFA269979860036C70A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01891BFD269979860036C70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01891BFF269979880036C70A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01891C02269979880036C70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01891C04269979880036C70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01891C09269979890036C70A /* Caliva WebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caliva WebviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01891C0D269979890036C70A /* Caliva_WebviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caliva_WebviewTests.swift; sourceTree = "<group>"; };
+		01891C0F269979890036C70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01891C14269979890036C70A /* Caliva WebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caliva WebviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01891C18269979890036C70A /* Caliva_WebviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caliva_WebviewUITests.swift; sourceTree = "<group>"; };
+		01891C1A269979890036C70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01891BF0269979860036C70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01891C06269979890036C70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01891C11269979890036C70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01891BEA269979860036C70A = {
+			isa = PBXGroup;
+			children = (
+				01891BF5269979860036C70A /* Caliva Webview */,
+				01891C0C269979890036C70A /* Caliva WebviewTests */,
+				01891C17269979890036C70A /* Caliva WebviewUITests */,
+				01891BF4269979860036C70A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01891BF4269979860036C70A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01891BF3269979860036C70A /* Caliva Webview.app */,
+				01891C09269979890036C70A /* Caliva WebviewTests.xctest */,
+				01891C14269979890036C70A /* Caliva WebviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01891BF5269979860036C70A /* Caliva Webview */ = {
+			isa = PBXGroup;
+			children = (
+				01891BF6269979860036C70A /* AppDelegate.swift */,
+				01891BF8269979860036C70A /* SceneDelegate.swift */,
+				01891BFA269979860036C70A /* ViewController.swift */,
+				01891BFC269979860036C70A /* Main.storyboard */,
+				01891BFF269979880036C70A /* Assets.xcassets */,
+				01891C01269979880036C70A /* LaunchScreen.storyboard */,
+				01891C04269979880036C70A /* Info.plist */,
+			);
+			path = "Caliva Webview";
+			sourceTree = "<group>";
+		};
+		01891C0C269979890036C70A /* Caliva WebviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				01891C0D269979890036C70A /* Caliva_WebviewTests.swift */,
+				01891C0F269979890036C70A /* Info.plist */,
+			);
+			path = "Caliva WebviewTests";
+			sourceTree = "<group>";
+		};
+		01891C17269979890036C70A /* Caliva WebviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01891C18269979890036C70A /* Caliva_WebviewUITests.swift */,
+				01891C1A269979890036C70A /* Info.plist */,
+			);
+			path = "Caliva WebviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01891BF2269979860036C70A /* Caliva Webview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01891C1D269979890036C70A /* Build configuration list for PBXNativeTarget "Caliva Webview" */;
+			buildPhases = (
+				01891BEF269979860036C70A /* Sources */,
+				01891BF0269979860036C70A /* Frameworks */,
+				01891BF1269979860036C70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Caliva Webview";
+			productName = "Caliva Webview";
+			productReference = 01891BF3269979860036C70A /* Caliva Webview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01891C08269979890036C70A /* Caliva WebviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01891C20269979890036C70A /* Build configuration list for PBXNativeTarget "Caliva WebviewTests" */;
+			buildPhases = (
+				01891C05269979890036C70A /* Sources */,
+				01891C06269979890036C70A /* Frameworks */,
+				01891C07269979890036C70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01891C0B269979890036C70A /* PBXTargetDependency */,
+			);
+			name = "Caliva WebviewTests";
+			productName = "Caliva WebviewTests";
+			productReference = 01891C09269979890036C70A /* Caliva WebviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01891C13269979890036C70A /* Caliva WebviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01891C23269979890036C70A /* Build configuration list for PBXNativeTarget "Caliva WebviewUITests" */;
+			buildPhases = (
+				01891C10269979890036C70A /* Sources */,
+				01891C11269979890036C70A /* Frameworks */,
+				01891C12269979890036C70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01891C16269979890036C70A /* PBXTargetDependency */,
+			);
+			name = "Caliva WebviewUITests";
+			productName = "Caliva WebviewUITests";
+			productReference = 01891C14269979890036C70A /* Caliva WebviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01891BEB269979860036C70A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					01891BF2269979860036C70A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					01891C08269979890036C70A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 01891BF2269979860036C70A;
+					};
+					01891C13269979890036C70A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 01891BF2269979860036C70A;
+					};
+				};
+			};
+			buildConfigurationList = 01891BEE269979860036C70A /* Build configuration list for PBXProject "Caliva Webview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01891BEA269979860036C70A;
+			productRefGroup = 01891BF4269979860036C70A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01891BF2269979860036C70A /* Caliva Webview */,
+				01891C08269979890036C70A /* Caliva WebviewTests */,
+				01891C13269979890036C70A /* Caliva WebviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01891BF1269979860036C70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01891C03269979880036C70A /* LaunchScreen.storyboard in Resources */,
+				01891C00269979880036C70A /* Assets.xcassets in Resources */,
+				01891BFE269979860036C70A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01891C07269979890036C70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01891C12269979890036C70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01891BEF269979860036C70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01891BFB269979860036C70A /* ViewController.swift in Sources */,
+				01891BF7269979860036C70A /* AppDelegate.swift in Sources */,
+				01891BF9269979860036C70A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01891C05269979890036C70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01891C0E269979890036C70A /* Caliva_WebviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01891C10269979890036C70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01891C19269979890036C70A /* Caliva_WebviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01891C0B269979890036C70A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01891BF2269979860036C70A /* Caliva Webview */;
+			targetProxy = 01891C0A269979890036C70A /* PBXContainerItemProxy */;
+		};
+		01891C16269979890036C70A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01891BF2269979860036C70A /* Caliva Webview */;
+			targetProxy = 01891C15269979890036C70A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01891BFC269979860036C70A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01891BFD269979860036C70A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01891C01269979880036C70A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01891C02269979880036C70A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01891C1B269979890036C70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01891C1C269979890036C70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01891C1E269979890036C70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLQB28QUR7;
+				INFOPLIST_FILE = "Caliva Webview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emerald-Productions.Caliva-Webview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01891C1F269979890036C70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLQB28QUR7;
+				INFOPLIST_FILE = "Caliva Webview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emerald-Productions.Caliva-Webview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01891C21269979890036C70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLQB28QUR7;
+				INFOPLIST_FILE = "Caliva WebviewTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emerald-Productions.Caliva-WebviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caliva Webview.app/Caliva Webview";
+			};
+			name = Debug;
+		};
+		01891C22269979890036C70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLQB28QUR7;
+				INFOPLIST_FILE = "Caliva WebviewTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emerald-Productions.Caliva-WebviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caliva Webview.app/Caliva Webview";
+			};
+			name = Release;
+		};
+		01891C24269979890036C70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLQB28QUR7;
+				INFOPLIST_FILE = "Caliva WebviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emerald-Productions.Caliva-WebviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Caliva Webview";
+			};
+			name = Debug;
+		};
+		01891C25269979890036C70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLQB28QUR7;
+				INFOPLIST_FILE = "Caliva WebviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emerald-Productions.Caliva-WebviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Caliva Webview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01891BEE269979860036C70A /* Build configuration list for PBXProject "Caliva Webview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01891C1B269979890036C70A /* Debug */,
+				01891C1C269979890036C70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01891C1D269979890036C70A /* Build configuration list for PBXNativeTarget "Caliva Webview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01891C1E269979890036C70A /* Debug */,
+				01891C1F269979890036C70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01891C20269979890036C70A /* Build configuration list for PBXNativeTarget "Caliva WebviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01891C21269979890036C70A /* Debug */,
+				01891C22269979890036C70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01891C23269979890036C70A /* Build configuration list for PBXNativeTarget "Caliva WebviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01891C24269979890036C70A /* Debug */,
+				01891C25269979890036C70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01891BEB269979860036C70A /* Project object */;
+}
